@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+}
+
+#title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  green;
+    font-size: 10vh;
+    text-align: center;
+}
+
+#content {
+    /*position: relative; */
+    background: green;
+    height: 500px;
+    width: 900px;
+}
+
+#box {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: red;
+}

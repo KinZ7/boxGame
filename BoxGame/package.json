@@ -1,0 +1,21 @@
+{
+  "name": "boxgame",
+  "version": "1.0.0",
+  "description": "A simple game with a box that the user can move around the screen, simple javascript and a little html",
+  "main": "main.js",
+  "scripts": {
+    "test": "game boxgame"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "Game",
+    "Javascript",
+    "Project",
+    "BoxGame"
+  ],
+  "author": "Kin Zinzombe",
+  "license": "MIT"
+}
