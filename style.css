@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: grey;
+}
+
+#title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    font-size: 10vh;
+    text-align: center;
+}
+
+#content {
+    background: green;
+    height: 500px;
+    width: 900px; 
+}
+
+#box {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: red;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+
+#controls>button {
+    color: white;
+    background: teal;
+    padding: 12px;
+    height: 25%;
+    width: 25%;
+    display: inline-block;
+    position: relative;
+}
+
+#controls {
+    position: absolute;
+    background-color: cyan;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+}
